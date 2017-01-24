@@ -14,8 +14,9 @@ php -r 'echo "\n\nYour PHP installation is working fine.\n\n\n";'
 
 sudo /etc/init.d/apache2 restart
 
-git clone https://github.com/zjaks/boostrap-website.git
+git clone https://github.com/zjaks/ITMT430.git
 
-sudo rm -rf /var/www/html/index.html
-sudo mv /home/ubuntu/boostrap-website/* /var/www/html/
-sudo rm -rf /home/ubuntu/boostrap-website
+
+sudo rm -rf /var/www/html/*
+sudo mv /home/vagrant/ITMT430/php-website-master/* /var/www/html/
+sudo rm -rf /home/vagrant/php-website-master
